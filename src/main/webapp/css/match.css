@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+   /* 共通　*/ 
+	main{
+		background-color: rgb(245, 228, 167);
+		height: 100vh;
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	li{
+		list-style: none;
+		}
+
+	.two_game{
+		background-color: #ffffff;
+		width: 100%;
+		max-width:800px;
+		margin: 40px;
+		height: 100%;
+		max-height:500px;
+		border-radius: 50px;
+		text-align: center;
+		}
+		
+	
+	.title{
+		padding-top:40px;
+		margin-top:0;
+		font-size: 70px;
+		color:  rgb(70, 70, 76);
+		font-family: 'Dela Gothic One', sans-serif;
+		margin-bottom:0;
+	}
+	
+	p{
+		font-weight: bold;
+		padding-top: 30px;
+	}
+	
+	.error{
+		padding-top:0;
+	}
+	
+	/* ぽんっボタン*/
+	
+	.pon{
+	  display: inline-block;
+	  width: 100%;
+	  max-width: 150px; /* ボタン幅 */
+	  color:#ffffff; /* 文字色 */
+	  padding: 1em 2em;
+	  font-weight: bold; /* 文字の太さ */
+	  text-decoration: none;
+	  text-align: center;
+	  transition: 0.3s;
+	  border-radius:20px;
+	  margin-top:10px;
+	  border: 2px solid rgb(222, 81, 64); /* 線幅・種類・色 */
+	  background: rgb(222, 81, 64); /* 背景色 */
+	  font-weight:bold;
+	 }
+	 
+	 .pon:hover{
+		 opacity: .7;
+	 }
+	 
+	 a{
+		text-decoration: none;
+		color: #ffffff;
+		display: block;
+		height: 100%;
+		line-height: 60px;
+	}

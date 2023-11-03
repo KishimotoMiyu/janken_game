@@ -1,0 +1,82 @@
+
+
+	main{
+		background-color: rgb(245, 228, 167);
+		height: 100vh;
+		width: 100vw;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	
+	.game_title{
+		background-color: #ffffff;
+		width: 100%;
+		max-width:800px;
+		margin: 40px;
+		height: 100%;
+		max-height:500px;
+		border-radius: 50px;
+		text-align: center;
+		}
+	
+	.title{
+		padding-top:20px;
+		font-size: 70px;
+		color:  rgb(227, 101, 77);
+		font-family: 'Dela Gothic One', sans-serif;
+		margin-bottom:10px;
+	}
+	
+	img{
+		max-width: 400px;
+		padding-bottom:20px;
+		width: 100%;
+	}
+	
+	/* button関係　*/
+	
+	.people{
+		display: flex;
+		justify-content: center;
+		max-width:500px;
+		margin:0 auto;
+		}
+	
+	button{
+	  display: inline-block;
+	  width: 100%;
+	  padding:0;
+	  height:60px;
+	  max-width: 150px; /* ボタン幅 */
+	  color: rgb(189, 104, 87); /* 文字色 */
+	  font-weight: bold; /* 文字の太さ */
+	  text-decoration: none;
+	  text-align: center;
+	  transition: 0.3s;
+	  border-radius:20px;
+	  margin:10px;
+	 }
+	
+	button:hover{
+		opacity: .7;
+	}
+	
+	.two_button{
+	  border: 2px solid rgb(222, 81, 64); /* 線幅・種類・色 */
+	  background: rgb(222, 81, 64); /* 背景色 */
+	}
+	
+	.three_button{
+		background: rgb(64, 97, 198); /* 背景色 */
+	    border: 2px solid rgb(70, 99, 205); /* 線幅・種類・色 */
+	}
+	
+	a{
+		text-decoration: none;
+		color: #ffffff;
+		display: block;
+		height: 100%;
+		line-height: 60px;
+	}
+	
