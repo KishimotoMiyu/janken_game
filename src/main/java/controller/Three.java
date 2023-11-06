@@ -73,9 +73,9 @@ import jakarta.servlet.http.HttpServletResponse;
  		}else if( userHand == 0 &&  pcHand1 == 2 && pcHand2 == 0) {
  			result="あなたの負けです（PC1の勝ち)";
  		}else if( userHand == 0 &&  pcHand1 == 2 && pcHand2 == 2) {
- 			result="あなたの負けです<br>（P2とPC2の勝ち)";
+ 			result="あなたの負けです<br>（PC1とPC2の勝ち)";
  		}else if( userHand == 1 &&  pcHand1 == 0 && pcHand2 ==0) {
- 			result="あなたの負けです<br>（PC2とPC2の勝ち)";
+ 			result="あなたの負けです<br>（PC1とPC2の勝ち)";
  		}else if( userHand == 1 &&  pcHand1 == 0 && pcHand2 ==1) {
  			result="あなたの負けです（PC1の勝ち)";
  		}else if( userHand == 1 &&  pcHand1 == 1 && pcHand2 == 0) {
